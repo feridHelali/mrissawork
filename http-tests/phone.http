@@ -1,0 +1,28 @@
+GET http://localhost:3030
+
+###
+
+POST http://localhost:3030
+Content-Type: application/json
+
+{
+    "brand":"Samsung",
+    "label":"Galaxy 3 V8",
+    "price":1750
+
+}
+
+###
+
+PUT http://localhost:3030/63aeac80da4876b4cd7319e5
+Content-Type: application/json
+
+{
+    "brand":"Apple iPhone",
+    "label":"iPhone x11",
+    "price":2300
+
+}
+
+###
+DELETE http://localhost:3030/63aebb6024f2540585137a06
